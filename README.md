@@ -30,6 +30,7 @@ To use the included styling, make sure the html structure is as follows after al
     </div>
     <div id="story-block">
       <section></section>
+      ...
     <div>
   </div>
 </div>
