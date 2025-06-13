@@ -1,4 +1,4 @@
-# Care Bear Chaos
+# 🧸 Care Bear Chaos 🤼
 
 This is a single session React workshop to demonstrate the basics of React functional components:
 - useState
