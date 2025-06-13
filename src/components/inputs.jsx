@@ -2,6 +2,7 @@ export const Inputs = ({
   setAdjective,
   setWeapon,
   setEmotion,
+  setSound,
   setWrestler,
   setNoun,
 }) => {
@@ -34,6 +35,16 @@ export const Inputs = ({
           type="text"
           onChange={(e) => {
             setEmotion(e.target.value)
+          }}
+        />
+      </label>
+      <label>
+        Sound:{" "}
+        <input
+          id="sound"
+          type="text"
+          onChange={(e) => {
+            setSound(e.target.value)
           }}
         />
       </label>
