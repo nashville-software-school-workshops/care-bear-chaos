@@ -1,12 +1,36 @@
-# React + Vite
+# Care Bear Chaos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a single session React workshop to demonstrate the basics of React functional components:
+- useState
+- useEffect
+- jsx
+- props
+- event handlers
+- **BONUS**: ternary statements
 
-Currently, two official plugins are available:
+## Running the workshop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Click on **Use this template**
+2. Check ☑️ **Include all branches**
+3. Select your the cohort's organization as the owner
+4. Clone the repo
+5. Run `npm install`
+6. To start the project run `npm run dev`
 
-## Expanding the ESLint configuration
+### Component Tree
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To use the included styling, make sure the html structure is as follows after all components render:
+
+```html
+<div id="root">
+  <div id="container">
+    <div id="input-block">
+      <label><input/><label>
+      ...
+    </div>
+    <div id="story-block">
+      <section></section>
+    <div>
+  </div>
+</div>
+```
