@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import "./App.css"
-import { Inputs } from "./components/inputs"
-import { Story } from "./components/story"
+import { Inputs } from "./components/Inputs"
+import { Story } from "./components/Story"
 
 const App = () => {
   const [adjective, setAdjective] = useState("")
