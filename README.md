@@ -15,8 +15,9 @@ This is a single session React workshop to demonstrate the basics of React funct
 3. Select your the cohort's organization as the owner
 4. Clone the repo
 5. Run `npm install`
-6. Run the workshop from the `begin` branch
-7. To start the project run `npm run dev`
+6. The `main` branch contains the code complete version of this project
+7. Run the workshop from the `begin` branch
+8. To start the project run `npm run dev`
 
 ### Walkthrough
 
@@ -30,16 +31,16 @@ This is a single session React workshop to demonstrate the basics of React funct
 7. Finish creating state for each word, capturing it with input, and rendering on the story text
 
 #### Part 2: Props
-1. Point out how messy our App component is getting. Break  it up into two components: `Inputs` and `Story`
-2. Talk about rendering function components
-3. Explain props and pass them tot he components. Explain the prop object
+1. Point out how messy our `App` component is getting. Break  it up into two components: `Inputs` and `Story`
+2. Talk about rendering components in the JSX
+3. Explain props and pass them to the components. Explain the prop object and how we can destructure it
 4. Show the component tree in the React Devtools
 5. Show the props in the components in React Devtools
 
 
 #### Part 3: useEffect
 1. We only want the story to appear once all the words have received a value
-2. Ask if everyone understands what a ternary is. If they don’t show usage of ternaries in the `Story` component. Render a _______ if the word is blank
+2. Explain ternaries
 3. Once they understand ternaries, wrap the `Story` component in a ternary dependent on a variable called `showStory`
 4. Create state for the `showStory` variable
 5. Explain how we want to set the value of `showStory` to true once all the input state variables have received a value
